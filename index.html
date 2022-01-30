@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--bootstrap icon  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
+
+    <!-- google font nunito -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito" />
+
+    <title>Medfo-UKTK ITS</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+      <div class="container py-2">
+        <a class="navbar-brand" href="#">
+          <img src="assets/ic-cahya.png" height="40" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Home">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Pradipa Gayatri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Palastri Danadyaksa</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <div class="container position-absolute top-50 start-50 translate-middle">
+      <div class="row beginning">
+        <div class="col">
+          <h1 class="text-center text-white"><i class="bi bi-gem"></i> UKTK ITS <i class="bi bi-gem"></i></h1>
+        </div>
+      </div>
+      <div class="row">
+        <p class="pt-3 nunito text-white text-center">
+          UKTK (Unit Kegiatan Tari dan Karawitan), student club of ITS that learn and explore Indonesian Traditional Dance, Gamelan, and Modern Dance. Its name is Rarakananta that taken from three word, Laras, Wara, and Lokananta that
+          represent the harmony of movement and beautiful music of gamelan.
+        </p>
+        <p class="nunito text-white text-center">Cahya does some stuff related on Media and Information department. See his magic ✨ on two different management below😉</p>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-6 col-sm-6 mb-3">
+          <div class="mgm-box">
+            <h4 class="mgm-name">Pradipa Gayatri</h4>
+            <img src="assets/pradipa.png" alt="pradipa" class="mgm-img" />
+            <a href="#" class="btn btn-warning mgm-detail-btn">See Details</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 col-sm-6 mb-5">
+          <div class="mgm-box2">
+            <h4 class="mgm-name2">Palastri Danadyaksa</h4>
+            <img src="assets/palastri.png" alt="pradipa" class="mgm-img2" />
+            <a href="#" class="btn btn-warning mgm2-detail-btn">See More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- tilt js -->
+    <script type="text/javascript" src="tilt/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector(".mgm-box"), {
+        max: 20,
+        speed: 800,
+        glare: true,
+      });
+
+      VanillaTilt.init(document.querySelector(".mgm-box2"), {
+        max: 20,
+        speed: 800,
+        glare: true,
+      });
+    </script>
+  </body>
+</html>

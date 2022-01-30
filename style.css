@@ -1,0 +1,268 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-image: url("assets/cover-true.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+  .beginning {
+    margin-top: 600px;
+  }
+} */
+
+/* Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .beginning {
+    margin-top: 200px;
+  }
+} */
+
+/* // Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... } */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 360px) {
+  .beginning {
+    margin-top: 600px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .beginning {
+    margin-top: 160px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .beginning {
+    margin-top: 120px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .beginning {
+    margin-top: 80px;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .beginning {
+    margin-top: 40px;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) {
+  ...;
+} */
+
+.nunito {
+  font-family: "Nunito", serif;
+}
+
+/* mgm-section */
+.mgm-box {
+  position: relative;
+  background-color: black;
+  background-image: url("assets/prev-pg-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 600px 600px;
+  border-radius: 12px;
+  height: 360px;
+  transform-style: preserve-3d;
+}
+
+.mgm-box::before {
+  content: "Staff";
+  position: absolute;
+  color: white;
+  font-size: 1.4em;
+  font-weight: bold;
+  font-style: italic;
+  top: 48px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.mgm-box:hover::before {
+  opacity: 0.6;
+}
+
+.mgm-box::after {
+  content: "Medfo";
+  position: absolute;
+  color: white;
+  font-size: 1.4em;
+  font-weight: bold;
+  font-style: italic;
+  top: 260px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.mgm-box:hover::after {
+  opacity: 0.6;
+}
+
+.mgm-name {
+  top: 0;
+  width: 100%;
+  position: absolute;
+  color: #eee;
+  text-align: center;
+  font-size: 1.7em;
+  opacity: 0;
+  transition: 0.5s;
+  transform: translate3d(0, 0, 20px);
+}
+
+.mgm-box:hover .mgm-name {
+  top: 14px;
+  opacity: 1;
+}
+
+.mgm-detail-btn {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-50%, 0, 60px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.mgm-box:hover .mgm-detail-btn {
+  opacity: 1;
+  bottom: 20px;
+}
+
+.mgm-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 40px);
+  max-width: 180px;
+  transition: 0.5s;
+}
+
+.mgm-box:hover .mgm-img {
+  transform: translate3d(-50%, -50%, 40px) rotate(18deg) scale(1.2);
+}
+
+/* mgm2 / palastri danadyaks */
+.mgm-box2 {
+  position: relative;
+  background-color: black;
+  background-image: url("assets/prev-pd-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 600px 600px;
+  border-radius: 12px;
+  height: 360px;
+  transform-style: preserve-3d;
+}
+
+.mgm-box2::before {
+  content: "Head of";
+  position: absolute;
+  color: white;
+  font-size: 1.4em;
+  font-weight: bold;
+  font-style: italic;
+  top: 48px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.mgm-box2:hover::before {
+  opacity: 0.6;
+}
+
+.mgm-box2::after {
+  content: "Medfo";
+  position: absolute;
+  color: white;
+  font-size: 1.4em;
+  font-weight: bold;
+  font-style: italic;
+  top: 260px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.mgm-box2:hover::after {
+  opacity: 0.6;
+}
+
+.mgm-name2 {
+  top: 0;
+  width: 100%;
+  position: absolute;
+  color: #eee;
+  text-align: center;
+  font-size: 1.7em;
+  opacity: 0;
+  transition: 0.5s;
+  transform: translate3d(0, 0, 20px);
+}
+
+.mgm-box2:hover .mgm-name2 {
+  top: 14px;
+  opacity: 1;
+}
+
+.mgm2-detail-btn {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-50%, 0, 60px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.mgm-box2:hover .mgm2-detail-btn {
+  opacity: 1;
+  bottom: 20px;
+}
+
+.mgm-img2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 40px);
+  max-width: 180px;
+  transition: 0.5s;
+}
+
+.mgm-box2:hover .mgm-img2 {
+  transform: translate3d(-50%, -50%, 40px) rotate(20deg) scale(1.2);
+}

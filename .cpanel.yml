@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/u1529797/public_html/uktk/
+    - /bin/cp -R * $DEPLOYPATH

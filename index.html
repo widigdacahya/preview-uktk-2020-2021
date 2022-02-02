@@ -35,10 +35,10 @@
               <a class="nav-link active" aria-current="page" href="#Home">Beranda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pradipa Gayatri</a>
+              <a class="nav-link" href="#" onclick="infoYet()">Pradipa Gayatri</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Palastri Danadyaksa</a>
+              <a class="nav-link" href="#" onclick="infoYet()">Palastri Danadyaksa</a>
             </li>
           </ul>
         </div>
@@ -64,14 +64,14 @@
           <div class="mgm-box">
             <h4 class="mgm-name">Pradipa Gayatri</h4>
             <img src="assets/pradipa.png" alt="pradipa" class="mgm-img" />
-            <a href="#" class="btn btn-warning mgm-detail-btn">See Details</a>
+            <a href="#" class="btn btn-warning mgm-detail-btn" onclick="infoYet()">See Details</a>
           </div>
         </div>
         <div class="col-md-6 col-lg-6 col-sm-6 mb-5">
           <div class="mgm-box2">
             <h4 class="mgm-name2">Palastri Danadyaksa</h4>
             <img src="assets/palastri.png" alt="pradipa" class="mgm-img2" />
-            <a href="#" class="btn btn-warning mgm2-detail-btn">See More</a>
+            <a href="#" class="btn btn-warning mgm2-detail-btn" onclick="infoYet()">See More</a>
           </div>
         </div>
       </div>
@@ -94,6 +94,11 @@
         speed: 800,
         glare: true,
       });
+    </script>
+    <script>
+      function infoYet() {
+        alert("Hi..the page is still under construction, come back later 😃");
+      }
     </script>
   </body>
 </html>
